@@ -1,0 +1,522 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    line-height: 150%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/*--フォント--*/
+
+/*--トップバナ--*/
+#top-baner {
+  max-width: 100%;
+  height: auto;
+  filter: blur(3px);
+
+}
+.figure {
+ margin: 0 auto;
+ position: relative;
+}
+
+
+.figure div.text1{
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    top: calc(50% - 100px); 
+    color: #DC143C; 
+    font-weight: bold; 
+    font-size: 100px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.figure div.text2 {
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    top: calc(50% - 10px); 
+    color: white; 
+    font-weight: bold; 
+    font-size: 25px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.figure div.text3 {
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    top: calc(50% - -30px); 
+    color: white; 
+    font-weight: bold; 
+    font-size: 25px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.figure div.text4 {
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    top: calc(50% - -70px); 
+    color: white; 
+    font-weight: bold; 
+    font-size: 25px;
+    line-height: 0px;
+    text-align: center;
+}
+/*--ヘッダー--*/
+
+header {
+    height: 80px;
+    width: 100%;
+    background: #44443A;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+}
+
+header h1 a{
+    color: #DC143C;
+    text-decoration: none;
+}
+
+/*--ナビゲーション--*/
+#top-nav {
+    position: relative;
+    float: right;
+    width: 500px;
+    height: 40px;
+}
+nav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;   
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#top-nav ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px;
+    width: 450px;
+    height: 80px;
+    list-style: none;
+    line-height: 85px;
+
+}
+#top-nav ul li {
+    float: right;
+}
+
+/*--レイアウト--*/
+.site-width {
+    margin: 0 auto;
+   width: 980px;
+}
+
+#contents {
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+/*#main*/ {
+    float: left;
+    min-height: 600px;
+}
+
+.page-title {
+    margin-bottom: 50px;
+    padding-top: 20px; /* Lesson14にて追加 */
+    text-align: center;
+    font-size: 32px;
+}
+
+/*--メインコンテンツ--*/
+p {
+    text-align: center;
+    font-size: 50px;
+    line-height: 250px;
+    font-weight: bold;   
+
+}
+
+/*--ボタン--*/
+
+.btn {
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn.btn-main {
+    background: #F6F7FB;
+    color: black;
+}
+
+
+.btn.btn-sub {
+    background: #F6F7FB;
+    color: black;
+}
+
+
+.btn-beginner {
+    position: absolute;
+    background: #00a4d5;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 100px;
+    box-shadow: 3px 3px 3px #b8b8b8;
+    transition: all 1s;
+    text-align: center;
+    top: 70%;
+    left: 30%;
+    text-decoration: none;
+}
+
+.btn-beginner:hover {
+    cursor: pointer;
+    background: #b2d142;
+    transition: all 1s;
+    box-shadow: 3px 10px 20px #c8c8c8;
+    transform: translateY(-10px);
+}
+.btn-user {
+    position: absolute;
+    background: #EC71A0;
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: none;
+    padding: 20px 100px;
+    box-shadow: 3px 3px 3px #b8b8b8;
+    transition: all 1s;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    text-decoration: none;
+
+}
+
+.btn-user:hover {
+    cursor: pointer;
+    background: #b2d142;
+    transition: all 1s;
+    box-shadow: 3px 10px 20px #c8c8c8;
+    transform: translateY(-10px);
+
+}
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn.btn-buy {
+    background: #b6a489;
+    color: white;
+}
+
+/*--フォーム--*/
+
+label{
+    display: block;
+}
+
+.form-container{
+    margin: 0 auto;
+}
+
+.page-1colum .form-container{
+    margin: 80px auto;
+}
+
+
+
+.form{
+    margin: 0 auto;
+    padding: 30px;
+    width: 400px;
+    border: 5px solid #f1f1f1;
+}
+.form_prof{
+    margin: 0 auto;
+    padding: 30px;
+    width: 1000px;
+    border: 5px solid #f1f1f1;
+}
+
+.form .title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form .err_code{
+    padding: 0 0 15px 0;
+    color: red;
+}
+
+.form .btn-container {
+    overflow: hidden;
+}
+.form .btn {
+    float: right;
+}
+
+/*.form .input-pic{
+    opacity:0;
+    width:100%;
+    height:140px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+
+.form .input-img{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.form .profImg{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 140px;
+    background: #f6f5f4;
+    color: #ccc;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    box-sizing: border-box;
+}
+*/
+
+.form .Required{
+    margin-left: 5px;
+    background: #fe8a8b;
+    font-size: 14px;
+    padding: 3px 5px;
+    color: white;
+    vertical-align: bottom;
+}
+
+/*.form .input-pic{
+    opacity:0;
+    width:100%;
+    height:10px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 2; 
+}
+.form .prev-img{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.form .area-pic {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 140px;
+    background: #f6f5f4;
+    color: #ccc;
+    text-align: center;
+    line-height: 150px;
+    position: relative;
+    box-sizing: border-box;
+}
+*/
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="text"]{
+    color: black;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+input[type="password"]{
+    color: black;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin: 15px 1px;
+    padding: 15px 0px;
+    width: 100%;
+    border: none;
+    background:  #44443A;
+    color: white;
+    font-size: 18px;
+}
+
+.err_msg{
+    color: #FF4444;
+    
+}
+
+.wordpass{
+    float: left;
+    text-align: left;
+}
+/*--サイドバー--*/
+
+.side{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+#sidebar {
+    position:relative;
+    top: -1045px;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding: 10px;
+    min-height: 300px;
+    width: 200px;
+    background: #f6f5f4;
+}
+
+.sidemypage{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.sideprof{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+
+/*-- ページネーション--*/
+.pagination {
+    position: relative;
+    overflow: hidden;
+}
+
+.pagination-list {
+    position: relative;
+    left: 50%;
+    float: left;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination .list-item {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.pagination .list-item:last-child {
+    margin-right: 0;
+}
+
+.pagination .list-item a {
+    display: block;
+    padding: 5px 10px;
+    background: #eee;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagination .list-item.active a {
+    background: #333;
+    color: white;
+}
+
+.pagination .list-item a:hover {
+    background: #333;
+    color: white;
+}
+
+/*検索結果*/
+.page-title {
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    height: 40px;
+    background: #f6f5f4;
+    line-height: 40px;
+}
+
+.page-left {
+    float: left;
+}
+
+.page-right {
+    float: right;
+}
+
+.page-title .total-num {
+    padding-right: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*リスト*/
+
+.page-list {
+    overflow: hidden;
+    margin-right: -15px;
+}
+
+.page-list > .page {
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    min-height: 185px;
+    width: 25%;
+    color: #333;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+
+a.page:hover {
+    text-decoration: underline;
+}
+
+.page-list > .page img {
+    width: 100%;
+}
+
+.page-list > .page .page-title {
+    margin: 0;
+}

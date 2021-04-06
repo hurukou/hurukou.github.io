@@ -1,0 +1,338 @@
+[30-Mar-2021 15:18:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in C:\xampp\htdocs\portfolio\test\function.php:59
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\test\signup.php(23): validMaildup('test1@test.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\portfolio\test\function.php on line 59
+[30-Mar-2021 15:20:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in C:\xampp\htdocs\portfolio\test\function.php:80
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\test\signup.php(23): validMaildup('test1@test.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\portfolio\test\function.php on line 80
+[30-Mar-2021 15:22:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in C:\xampp\htdocs\portfolio\test\function.php:80
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\test\signup.php(23): validMaildup('test1@test.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\portfolio\test\function.php on line 80
+[30-Mar-2021 15:23:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in C:\xampp\htdocs\portfolio\test\function.php:80
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\test\signup.php(23): validMaildup('test1@test.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\portfolio\test\function.php on line 80
+[30-Mar-2021 15:23:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on int in C:\xampp\htdocs\portfolio\test\function.php:80
+Stack trace:
+#0 C:\xampp\htdocs\portfolio\test\signup.php(23): validMaildup('test1@test.com')
+#1 {main}
+  thrown in C:\xampp\htdocs\portfolio\test\function.php on line 80
+[30-Mar-2021 15:50:46 Europe/Berlin] PHP Notice:  Undefined variable: dbProduct in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 15:50:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 15:50:46 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:21 Europe/Berlin] PHP Notice:  Undefined variable: dbProduct in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:21 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:21 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:24 Europe/Berlin] PHP Notice:  Undefined variable: dbProduct in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:24 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\portfolio\test\test.php on line 7
+[30-Mar-2021 16:01:55 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:01:55 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:01:55 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:01:55 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:01:58 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:01:58 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:01:58 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:01:58 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:02:56 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:02:56 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:02:56 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:02:56 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:19 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:19 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:19 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:19 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:22 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:22 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:22 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:22 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:23 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:23 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:23 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:23 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:26 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:26 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:07:26 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:07:26 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:10:45 Europe/Berlin] PHP Notice:  Undefined variable: paginationNum in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:10:45 Europe/Berlin] PHP Notice:  Undefined variable: listCount in C:\xampp\htdocs\portfolio\test\test.php on line 3
+[30-Mar-2021 16:10:45 Europe/Berlin] PHP Notice:  Undefined variable: category in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:10:45 Europe/Berlin] PHP Notice:  Undefined variable: sort in C:\xampp\htdocs\portfolio\test\test.php on line 5
+[30-Mar-2021 16:17:09 Europe/Berlin] エラー:不正な値が検出されました
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:54:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:55:18 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:55:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 23
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:56:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 16:56:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 114
+[30-Mar-2021 16:56:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 114
+[30-Mar-2021 16:56:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 118
+[30-Mar-2021 16:56:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 119
+[30-Mar-2021 16:56:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 16:56:51 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 114
+[30-Mar-2021 16:56:51 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 114
+[30-Mar-2021 16:56:51 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 118
+[30-Mar-2021 16:56:51 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 119
+[30-Mar-2021 16:56:51 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 16:57:30 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:57:30 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:57:30 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:57:30 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:57:30 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 16:57:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:57:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:57:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:57:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:57:35 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 16:57:38 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:57:38 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 16:57:38 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 16:57:38 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 16:57:38 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 17:02:36 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 17:02:36 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 132
+[30-Mar-2021 17:02:36 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 136
+[30-Mar-2021 17:02:36 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:02:36 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 151
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Undefined index: p_id in C:\xampp\htdocs\portfolio\test\product.php on line 4
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Undefined index: p_id in C:\xampp\htdocs\portfolio\test\product.php on line 4
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:08:05 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:08:54 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:09:40 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:10:39 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:10:46 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:11:45 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Undefined index: p.content in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Undefined index: p.ask in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:00 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Undefined index: p.content in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Undefined index: p.ask in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:12:12 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Undefined index: p.content in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Undefined index: p.ask in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:12:56 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Undefined index: p.content in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Undefined index: p.ask in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:13:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Undefined index: p.content in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Undefined index: p.ask in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:14:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:14:53 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:20:32 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[30-Mar-2021 17:26:01 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[31-Mar-2021 13:51:24 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[31-Mar-2021 13:51:24 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[31-Mar-2021 13:51:24 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[31-Mar-2021 13:51:25 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[31-Mar-2021 13:51:25 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[31-Mar-2021 13:51:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[31-Mar-2021 13:51:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[31-Mar-2021 13:51:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[31-Mar-2021 13:51:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[31-Mar-2021 13:51:26 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[31-Mar-2021 13:55:37 Europe/Berlin] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\portfolio\test\product.php on line 24
+[06-Apr-2021 14:05:47 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[06-Apr-2021 14:05:47 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 133
+[06-Apr-2021 14:05:47 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 137
+[06-Apr-2021 14:05:47 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 138
+[06-Apr-2021 14:05:47 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\portfolio\test\product.php on line 152
+[06-Apr-2021 14:29:43 Europe/Berlin] エラー:不正な値が検出されました
