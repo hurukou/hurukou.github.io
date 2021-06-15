@@ -15,18 +15,18 @@ $m_id = (!empty($_GET['m_id'])) ? $_GET['m_id'] : '';
 $getData = getMesgBoard($m_id);
 
 //パラメータに不正な値が入ってるか
-if(empty($getData)){
-    error_log('エラー:指定ページに不正な値を検出');
-    header("Location:mypage.php");
-}
+//if(empty($getData)){
+   // error_log('エラー:指定ページに不正な値を検出');
+   // header("Location:mypage.php");
+//}
 //商品情報を取得
 $productInfo = getProductInfo($getData[0]['product_id']);
 
 //商品情報が入っているか
-if(empty($productInfo)){
-    error_log('エラー:商品ページが取得できない');
-    header("Location:mypage.php");
-}
+//if(empty($productInfo)){
+   // error_log('エラー:商品ページが取得できない');
+    //header("Location:mypage.php");
+//}
 // getDataから相手のユーザーidを取得
 
 $bothUserId[] = $getData[0]['sale_user'];
@@ -38,25 +38,25 @@ $boardUserId = array_shift($bothUserId);
 
 //DBから相手のユーザー情報を取得
 if(isset($boardUserId)){
-    $boardUserInfo = getUserData($boardUserIdId);
+    $boardUserInfo = getUserData($boardUserId);
 }
 //相手のユーザー情報が取得できたかチェック
-if(empty($boardUserInfo)){
-    error_log('エラー:相手のユーザー情報が取得できませんでした');
-    header("Location:mypage.php");
-}
+//if(empty($boardUserInfo)){
+  //  error_log('エラー:相手のユーザー情報が取得できませんでした');
+   // header("Location:mypage.php");
+//}
 //　DBからユーザー情報を取得
 $myUserInfo = getUserData($_SESSION['user_id']);
 //　自分のユーザー情報が取得できたかチェック
-if(empty($myUserInfo)){
-    error_log('エラー:自分のユーザー情報が取得できませんでした');
-        header("Location:mypage.php");
-    }
+//if(empty($myUserInfo)){
+  //  error_log('エラー:自分のユーザー情報が取得できませんでした');
+      //  header("Location:mypage.php");
+  //  }
     if(!empty($_POST)){
         
         //認証
         require('auth.php');
-    }
+    
     
     //バリデーション
     $msg = (isset($_POST['msg'])) ? $_POST['msg'] : '';
@@ -71,8 +71,8 @@ if(empty($myUserInfo)){
             //DBへ接続
             $db = db_connection();
             //SQL文
-            $sql = 'INSERT message (board_id, send_date, to_user, from_user, msg, create_date) VALUES VALUES (:b_id, :send_date, :to_user, :from_user, :msg, :date)';
-            $data = array(':b_id' => $m_id, ':send_date' => date('Y-m-d H:i:s'), ':to_user' => $partnerUserId, ':from_user' => $_SESSION['user_id'], ':msg' => $msg, ':date' => date('Y-m-d H:i:s'));
+            $sql = 'INSERT INTO message (board_id, send_date, to_user, from_user, msg, create_date) VALUES (:b_id, :send_date, :to_user, :from_user, :msg, :date)';
+            $data = array(':b_id' => $m_id, ':send_date' => date('Y-m-d H:i:s'), ':to_user' => $boardUserId, ':from_user' => $_SESSION['user_id'], ':msg' => $msg, ':date' => date('Y-m-d H:i:s'));
             //クエリ実行
             $stmt = queryex($db, $sql, $data);
             
@@ -86,6 +86,7 @@ if(empty($myUserInfo)){
             error_log('エラー:' . $e->getMessage());
             $err_msg['err_code'] = MSG07;
         }  
+    }
     }
 ?>
 <?php    
@@ -227,8 +228,8 @@ require('head.php');
                 <img src="<?php echo showImg(sanitize($boardUserInfo['pic'])); ?>" alt="" class="avatar"><br>
             </div>
             <div class="avatar-info">
-                <?php echo sanitize($boardUserInfo['username']).''.sanitize($boardUserInfo['twitter']).'' ?><br>
-                <?php echo sanitize($boardUserInfo['youtube']).''?>
+                <?php echo sanitize($boardUserInfo['username']).''?><br>
+         
             </div>
             <div class="product-info">
                 <div class="left">
@@ -243,6 +244,7 @@ require('head.php');
             </div>
      
         </div>
+        <div class="area-board">
          <?php
          if(!empty($getData)){
              foreach($getData as $key => $val){
@@ -250,7 +252,7 @@ require('head.php');
          ?>
          <div class="msg-cnt msg-left">
              <div class="avatar">
-                 <img src="<?php echo sanitize(showImg($boardUserId['pic'])); ?>" alt="" class="avatar">
+                 <img src="<?php echo sanitize(showImg($boardUserInfo['pic'])); ?>" alt="" class="avatar">
              </div>
              <p class="msg-inrTxt">
                  <span class="triangle"></span>
@@ -280,7 +282,14 @@ require('head.php');
          <?php
          }
          ?>
+         </div>
 
+         <div class="area-send-msg">
+             <form action="" method="post">
+                 <textarea name="msg" cols="30" rows="3"></textarea>
+                 <input type="submit" value="送信" class="btn btn-send">
+             </form>
+         </div>
          
      </section>
     </div>
